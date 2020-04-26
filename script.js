@@ -3,6 +3,7 @@ var sel =document.getElementById('selectlist')
 var res = document.getElementById('res')
 var arrayNum = []
 
+//validação dos numeros a serem adicionados
 function validNumber(n){
     if(Number(n)>=1 && Number(n)<=100){
         return true
